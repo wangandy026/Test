@@ -6,7 +6,7 @@ public class BicycleBuilderTester {
 
 	public static void main(String[] args)
 	{
-		System.out.println("---------------------------------\nWelcome to the Bicycle Builder Tester!\n---------------------------------");
+		System.out.println("---------------------------------\nWelcome to the Bicycle Builder Tester testing !\n---------------------------------");
 		//Default Bike
 		System.out.println("First we will create a \"Default\" Bicycle");
 		Bicycle b01 = new Bicycle();
