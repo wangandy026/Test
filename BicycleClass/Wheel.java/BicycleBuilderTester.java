@@ -18,6 +18,18 @@ public class BicycleBuilderTester {
 		System.out.println("\nTesting the toString method");
 		System.out.println(b01);
 		
+
+		// testing 
+		Bicycle b02 = new Bicycle();
+		System.out.println("Printing the Bicycle's data");
+		System.out.println("Bicycle's make: "+b02.getMake());
+		System.out.println("Bicycle's front wheel: Diameter "+b02.getFrontWheel().getDiameter()+" Width: "+b02.getFrontWheel().getWidth());
+		System.out.println("Bicycle's back wheel: Diameter "+b02.getBackWheel().getDiameter()+" Width: "+b02.getBackWheel().getWidth());
+		System.out.println("Bicycle's frame: Size: "+b02.getFrame().getSize()+" Type: "+b02.getFrame().getType());
+		System.out.println("\nTesting the toString method");
+		System.out.println(b02);
+
+
 		//Setting wrong properties.
 		System.out.println("\nSetting invalid values for the default bike's wheels and frame");
 		b01.setBackWheel(new Wheel(0,0));
